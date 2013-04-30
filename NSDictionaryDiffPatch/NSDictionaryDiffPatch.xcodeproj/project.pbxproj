@@ -16,6 +16,8 @@
 		393E5ACB172FF9DD001F2C21 /* libNSDictionaryDiffPatch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393E5AB2172FF9DD001F2C21 /* libNSDictionaryDiffPatch.a */; };
 		393E5AD1172FF9DE001F2C21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 393E5ACF172FF9DE001F2C21 /* InfoPlist.strings */; };
 		393E5AD4172FF9DE001F2C21 /* NSDictionaryDiffPatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 393E5AD3172FF9DE001F2C21 /* NSDictionaryDiffPatchTests.m */; };
+		393E5ADF172FFA6D001F2C21 /* NSDictionary+NSDDiffPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 393E5ADE172FFA6D001F2C21 /* NSDictionary+NSDDiffPatch.m */; };
+		393E5AE2172FFE96001F2C21 /* NSArray+NSDDiffPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 393E5AE1172FFE96001F2C21 /* NSArray+NSDDiffPatch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		393E5AD0172FF9DE001F2C21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		393E5AD2172FF9DE001F2C21 /* NSDictionaryDiffPatchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDictionaryDiffPatchTests.h; sourceTree = "<group>"; };
 		393E5AD3172FF9DE001F2C21 /* NSDictionaryDiffPatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryDiffPatchTests.m; sourceTree = "<group>"; };
+		393E5ADD172FFA6D001F2C21 /* NSDictionary+NSDDiffPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NSDDiffPatch.h"; sourceTree = "<group>"; };
+		393E5ADE172FFA6D001F2C21 /* NSDictionary+NSDDiffPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NSDDiffPatch.m"; sourceTree = "<group>"; };
+		393E5AE0172FFE96001F2C21 /* NSArray+NSDDiffPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NSDDiffPatch.h"; sourceTree = "<group>"; };
+		393E5AE1172FFE96001F2C21 /* NSArray+NSDDiffPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NSDDiffPatch.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,10 @@
 				393E5ABA172FF9DD001F2C21 /* NSDictionaryDiffPatch.h */,
 				393E5ABC172FF9DD001F2C21 /* NSDictionaryDiffPatch.m */,
 				393E5AB8172FF9DD001F2C21 /* Supporting Files */,
+				393E5ADD172FFA6D001F2C21 /* NSDictionary+NSDDiffPatch.h */,
+				393E5ADE172FFA6D001F2C21 /* NSDictionary+NSDDiffPatch.m */,
+				393E5AE0172FFE96001F2C21 /* NSArray+NSDDiffPatch.h */,
+				393E5AE1172FFE96001F2C21 /* NSArray+NSDDiffPatch.m */,
 			);
 			path = NSDictionaryDiffPatch;
 			sourceTree = "<group>";
@@ -244,6 +254,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				393E5ABD172FF9DD001F2C21 /* NSDictionaryDiffPatch.m in Sources */,
+				393E5ADF172FFA6D001F2C21 /* NSDictionary+NSDDiffPatch.m in Sources */,
+				393E5AE2172FFE96001F2C21 /* NSArray+NSDDiffPatch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
